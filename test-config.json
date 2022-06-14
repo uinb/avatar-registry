@@ -1,0 +1,16 @@
+{
+    "fusotao":{
+        "netwoekId": "testnet",
+        "nodeId": "wss://binnode.brandy.fusotao.org",
+        "name":"Fusotao",
+        "website": "",
+        "icon":"",
+        "tokenModule": "token",
+        "tokenMethod": "tokens",
+        "tokens":[
+            {"code":1, "decimal": 18, "symbol": "USDT", "name":"USDT", "logo":"https://www.fusotao.org/share/usdt.svg"},
+            {"code":2, "decimal": 18, "symbol": "WETH", "name":"WETH", "logo":"https://www.fusotao.org/share/weth.svg"},
+            {"code":3, "decimal": 18, "symbol": "wNEAR", "name":"wNEAR", "logo":"https://www.fusotao.org/share/wnear.svg"}
+        ]
+    }
+}
