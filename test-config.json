@@ -1,6 +1,6 @@
 {
     "fusotao":{
-        "netwoekId": "testnet",
+        "networkId": "testnet",
         "nodeId": "wss://binnode.brandy.fusotao.org",
         "name":"Fusotao",
         "website": "",
