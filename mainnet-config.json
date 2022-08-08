@@ -132,5 +132,43 @@
                 "logo": "http://debio.dev/debiologo.png"
             }
         ]
+    },
+    "fusotao": {
+        "networkId": "mainnet",
+        "nodeId": "wss://gateway.mainnet.octopus.network/fusotao/0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2",
+        "name": "Fusotao",
+        "symbol": "TAO",
+        "website": "https://www.fusotao.org",
+        "icon": "https://www.fusotao.org/share/tao.svg",
+        "tokenModule": "token",
+        "tokenMethod": "balances",
+        "tokenViewModules": {
+            "balance": {
+                "module": "token",
+                "method": "balances",
+                "params": "array"
+            },
+            "metadata": {
+                "module": "token",
+                "method": "tokens",
+                "params": ""
+            }
+        },
+        "tokenChangeModules": {
+            "transfer": {
+                "module": "token",
+                "method": "transfer",
+                "params": ""
+            }
+        },
+        "tokens": [
+            {
+                "code": 0,
+                "decimal": 18,
+                "symbol": "TAO",
+                "name": "TAO",
+                "logo": "https://www.fusotao.org/share/tao.svg"
+            }
+        ]
     }
 }
