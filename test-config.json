@@ -1,22 +1,4 @@
 {
-    "near": {
-        "networkId": "testnet",
-        "nodeUrl": "https://rpc.testnet.near.org",
-        "walletUrl": "https://wallet.testnet.near.org",
-        "helperUrl": "https://testnet-api.kitwallet.app",
-        "explorerUrl": "https://explorer.testnet.near.org",
-        "headers": {},
-        "ftPriceUrl": "https://dev-indexer.ref-finance.com//list-token-price",
-        "nftFetchUrl": "https://testnet-api.kitwallet.app/account/{requestAccount}/likelyNFTs",
-        "ftFetchUrl": "https://testnet-api.kitwallet.app/account/{requestAccount}/likelyTokens",
-        "historyUrl": "https://testnet-api.kitwallet.app/account/{requestAccount}/activity"
-    },
-    "oct": {
-        "explorerUrl": "https://explorer.testnet.oct.network",
-        "octTokenContractId": "oct.beta_oct_relay.testnet",
-        "registryContractId": "registry.test_oct.testnet",
-        "bridgeId": "dev.dev_oct_relay.testnet"
-    },
     "fusotao": {
         "netwoekId": "testnet",
         "nodeId": "wss://gateway.testnet.octopus.network/fusotao/erc8ygm5qvmi2fw23ijpvzgpzzto47mi",
