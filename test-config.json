@@ -33,6 +33,7 @@
                 "decimal": 18,
                 "symbol": "TAO",
                 "name": "TAO",
+                "id":"fusotao",
                 "logo": "https://www.fusotao.org/share/tao.svg"
             },
             {
@@ -40,6 +41,7 @@
                 "decimal": 18,
                 "symbol": "WETH",
                 "name": "WETH",
+                "id":"weth",
                 "logo": "https://www.fusotao.org/share/weth.svg"
             },
             {
@@ -47,6 +49,7 @@
                 "decimal": 18,
                 "symbol": "fUSDT",
                 "name": "fake fusotao usdt",
+                "id":"tether",
                 "logo": "https://www.fusotao.org/share/usdt.svg"
             }
         ]
@@ -76,6 +79,7 @@
                 "decimal": 18,
                 "symbol": "BAR",
                 "name": "BAR",
+                "id":"",
                 "logo": "https://avatars.githubusercontent.com/u/14307069"
             }
         ]
@@ -105,6 +109,7 @@
                 "decimal": 18,
                 "symbol": "SOTO",
                 "name": "SOTO",
+                "id":"",
                 "logo": ""
             }
         ]
@@ -134,6 +139,7 @@
                 "decimal": 18,
                 "symbol": "BARE",
                 "name": "BARE",
+                "id":"",
                 "logo": ""
             }
         ]
@@ -163,6 +169,7 @@
                 "decimal": 14,
                 "symbol": "DISC",
                 "name": "DISC",
+                "id": "",
                 "logo": "https://discovol.co/web3/assets/favicon.ico"
             }
         ]
@@ -192,6 +199,7 @@
                 "decimal": 18,
                 "symbol": "MYRIA",
                 "name": "MYRIA",
+                "id":"myriad-social",
                 "logo": "https://2dverse.org/myriad/Logo_Solid.svg"
             },
             {
@@ -199,6 +207,7 @@
                 "decimal": 18,
                 "symbol": "USDC",
                 "name": "USDC",
+                "id":"usd-coin",
                 "logo": "https://www.fusotao.org/share/usdc.svg"
             }
         ]
@@ -228,6 +237,7 @@
                 "decimal": 18,
                 "symbol": "DBIO",
                 "name": "DBIO",
+                "id":"",
                 "logo": "http://debio.dev/debiologo.png"
             },
             {
@@ -235,6 +245,7 @@
                 "decimal": 6,
                 "symbol": "USDC",
                 "name": "USDC",
+                "id":"usd-coin",
                 "logo": "https://www.fusotao.org/share/usdc.svg"
             }
         ]
@@ -264,6 +275,7 @@
                 "decimal": 18,
                 "symbol": "DEIP",
                 "name": "DEIP",
+                "id":"",
                 "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iLjg5MiIgeT0iLjkxIiB3aWR0aD0iNDMuMTYxIiBoZWlnaHQ9IjQzLjE2MSIgcng9IjIxLjU4MSIgZmlsbD0iI0Y4RkVGQSIvPjxwYXRoIGQ9Ik05LjcgMTAuNmgxNC41MzRjNi41NjcgMCAxMS44OTIgNS4zMjMgMTEuODkyIDExLjg5IDAgNi41NjgtNS4zMjQgMTEuODkyLTExLjg5MiAxMS44OTJIOS43VjEwLjZaIiBmaWxsPSJ1cmwoI2EpIi8+PGNpcmNsZSBjeD0iMjIuNDczIiBjeT0iMjIuNDkxIiByPSI0Ljg0NSIgZmlsbD0iIzAwMCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCguMjE2IDExLjY5NTUgLTExLjkyNjc3IC4yMjAyOCAyMi42OTcgMjIuNjg3KSI+PHN0b3Agb2Zmc2V0PSIuMzU5IiBzdG9wLWNvbG9yPSIjRTlGRjAwIi8+PHN0b3Agb2Zmc2V0PSIuNzYiIHN0b3AtY29sb3I9IiMyNjM4MDAiLz48c3RvcCBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L3N2Zz4="
             }
         ]
@@ -293,6 +305,7 @@
                 "decimal": 18,
                 "symbol": "ATO",
                 "name": "ATO",
+                "id":"",
                 "logo": "https://avatars.githubusercontent.com/u/92355981?s=200&v=4"
             }
         ]
@@ -322,6 +335,7 @@
                 "decimal": 18,
                 "symbol": "UNET",
                 "name": "UNET",
+                "id":"",
                 "logo": "https://files.unique.one/images/unet.png"
             }
         ]
