@@ -39,7 +39,7 @@
             {
                 "code": 1,
                 "decimal": 18,
-                "symbol": "USDT",
+                "symbol": "USDT.e",
                 "name": "USDT",
                 "id":"tether",
                 "logo": "https://www.fusotao.org/share/usdt.svg"
