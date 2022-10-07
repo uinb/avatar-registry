@@ -38,15 +38,6 @@
                 "logo": "https://www.fusotao.org/share/tao.svg"
             },
             {
-                "code": 1,
-                "decimal": 24,
-                "symbol": "wNEAR",
-                "name": "Wrapped NEAR fungible token",
-                "id":"wrapped-near",
-                "contractId": "Wrapped NEAR fungible token",
-                "logo": "https://www.fusotao.org/share/weth.svg"
-            },
-            {
                 "code": 2,
                 "decimal": 18,
                 "symbol": "WETH",
