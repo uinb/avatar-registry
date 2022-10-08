@@ -65,5 +65,36 @@
                 "logo": "https://www.fusotao.org/share/wnear.svg"
             }
         ]
+    },
+    "myriad": {
+        "nodeId": "wss://gateway.mainnet.octopus.network/myriad/a4cb0a6e30ff5233a3567eb4e8cb71e0",
+        "tokenModule": "octopusAssets",
+        "tokenMethod": "account",
+        "tokenViewModules": {
+            "balance": {
+                "module": "octopusAssets",
+                "method": "account",
+                "params": ""
+            }
+        },
+        "tokenChangeModules": {
+            "transfer": {
+                "module": "octopusAssets",
+                "method": "transfer",
+                "params": ""
+            }
+        },
+        "symbol": "MYRIA",
+        "tokens": [
+            {
+                "code": 0,
+                "decimal": 18,
+                "symbol": "MYRIA",
+                "name": "MYRIA",
+                "id":"myriad-social",
+                "contractId": "myriadcore.near",
+                "logo": "https://2dverse.org/myriad/Logo_Solid.svg"
+            }
+        ]
     }
 }
