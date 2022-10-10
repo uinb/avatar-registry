@@ -72,6 +72,15 @@
                 "id":"myriad-social",
                 "contractId": "myria.testnet",
                 "logo": "https://2dverse.org/myriad/Logo_Solid.svg"
+            },
+            {
+                "code": 6,
+                "decimal": 18,
+                "symbol": "DBIO",
+                "name": "DeBio",
+                "id":"debio-network",
+                "contractId": "dbio.testnet",
+                "logo": "http://debio.dev/debiologo.png"
             }
         ]
     },
