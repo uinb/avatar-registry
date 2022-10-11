@@ -248,37 +248,6 @@
             }
         ]
     },
-    "deip-test": {
-        "nodeId": "wss://gateway.testnet.octopus.network/deip/46v4p8ss613olf92p2scmsjud68mhzrr",
-        "tokenModule": "assets",
-        "tokenMethod": "account",
-        "tokenViewModules": {
-            "balance": {
-                "module": "assets",
-                "method": "account",
-                "params": ""
-            }
-        },
-        "tokenChangeModules": {
-            "transfer": {
-                "module": "uniques",
-                "method": "transfer",
-                "params": ""
-            }
-        },
-        "symbol": "DEIP",
-        "tokens": [
-            {
-                "code": 0,
-                "decimal": 18,
-                "symbol": "DEIP",
-                "name": "deip token",
-                "id":"deip-protocol",
-                "contractId": "deipn.testnet",
-                "logo": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNDUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3QgeD0iLjg5MiIgeT0iLjkxIiB3aWR0aD0iNDMuMTYxIiBoZWlnaHQ9IjQzLjE2MSIgcng9IjIxLjU4MSIgZmlsbD0iI0Y4RkVGQSIvPjxwYXRoIGQ9Ik05LjcgMTAuNmgxNC41MzRjNi41NjcgMCAxMS44OTIgNS4zMjMgMTEuODkyIDExLjg5IDAgNi41NjgtNS4zMjQgMTEuODkyLTExLjg5MiAxMS44OTJIOS43VjEwLjZaIiBmaWxsPSJ1cmwoI2EpIi8+PGNpcmNsZSBjeD0iMjIuNDczIiBjeT0iMjIuNDkxIiByPSI0Ljg0NSIgZmlsbD0iIzAwMCIvPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iYSIgY3g9IjAiIGN5PSIwIiByPSIxIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCguMjE2IDExLjY5NTUgLTExLjkyNjc3IC4yMjAyOCAyMi42OTcgMjIuNjg3KSI+PHN0b3Agb2Zmc2V0PSIuMzU5IiBzdG9wLWNvbG9yPSIjRTlGRjAwIi8+PHN0b3Agb2Zmc2V0PSIuNzYiIHN0b3AtY29sb3I9IiMyNjM4MDAiLz48c3RvcCBvZmZzZXQ9IjEiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48L3N2Zz4="
-            }
-        ]
-    },
     "atocha": {
         "nodeId": "wss://gateway.testnet.octopus.network/atocha/yevqd2d4jhm0dqakaj4hkbyjjfg6ukbu",
         "tokenModule": "octopusAssets",
