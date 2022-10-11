@@ -63,6 +63,15 @@
                 "id":"wrapped-near",
                 "contractId": "wrap.near",
                 "logo": "https://www.fusotao.org/share/wnear.svg"
+            },
+            {
+                "code": 4,
+                "decimal": 18,
+                "symbol": "MYRIA",
+                "name": "Myria",
+                "id":"myriad-social",
+                "contractId": "myriadcore.near",
+                "logo": "https://2dverse.org/myriad/Logo_Solid.svg"
             }
         ]
     },
