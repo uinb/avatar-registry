@@ -39,12 +39,12 @@
             },
             {
                 "code": 1,
-                "decimal": 24,
-                "symbol": "wNEAR",
-                "name": "Wrapped NEAR fungible token",
-                "id":"wrapped-near",
-                "contractId": "Wrapped NEAR fungible token",
-                "logo": "https://www.fusotao.org/share/wnear.svg"
+                "decimal": 18,
+                "symbol": "USDT",
+                "name": "USDT for Fusotao Testnet",
+                "id":"tether",
+                "contractId": "usdt.fusotaoprotocol.testnet",
+                "logo": "https://www.fusotao.org/share/usdt.svg"
             },
             {
                 "code": 2,
@@ -63,6 +63,15 @@
                 "id":"tether",
                 "contractId": "fake-usdt.fusotaoprotocol.testnet",
                 "logo": "https://www.fusotao.org/share/usdt.svg"
+            },
+            {
+                "code": 4,
+                "decimal": 18,
+                "symbol": "wNEAR",
+                "name": "Wrapped NEAR fungible token",
+                "id":"wrapped-near",
+                "contractId": "wrap.testnet",
+                "logo": "https://www.fusotao.org/share/wnear.svg"
             },
             {
                 "code": 7,
