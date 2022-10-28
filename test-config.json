@@ -90,6 +90,15 @@
                 "id":"debio-network",
                 "contractId": "dbio.testnet",
                 "logo": "http://debio.dev/debiologo.png"
+            },
+            {
+                "code": 11,
+                "decimal": 18,
+                "symbol": "PEM",
+                "name": "Pembrock",
+                "id": "pembrock",
+                "contractId": "token.pembrock.testnet",
+                "logo": "https://www.fusotao.org/share/pem.svg"
             }
         ]
     },
