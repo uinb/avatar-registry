@@ -86,7 +86,7 @@
                 "code": 6,
                 "decimal": 18,
                 "symbol": "PEM",
-                "name": "PEMBROCK",
+                "name": "PemBrock",
                 "id":"pem-brock",
                 "contractId": "token.pembrock.near",
                 "logo": "https://www.fusotao.org/share/pem.svg"
