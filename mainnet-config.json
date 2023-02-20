@@ -31,6 +31,7 @@
             {
                 "code": 0,
                 "decimal": 18,
+                "type": "native",
                 "symbol": "TAO",
                 "name": "FUSOTAO",
                 "id":"fusotao",
@@ -40,6 +41,7 @@
             {
                 "code": 1,
                 "decimal": 18,
+                "type": "NEP141",
                 "symbol": "USDT.e",
                 "name": "Tether USD",
                 "id":"tether",
@@ -49,6 +51,7 @@
             {
                 "code": 2,
                 "decimal": 18,
+                "type": "NEP141",
                 "symbol": "OCT",
                 "name": "Octopus Network Token",
                 "id":"octopus-network",
@@ -58,6 +61,7 @@
             {
                 "code": 3,
                 "decimal": 18,
+                "type": "NEP141",
                 "symbol": "wNEAR",
                 "name": "Wrapped NEAR fungible token",
                 "id":"wrapped-near",
@@ -67,6 +71,7 @@
             {
                 "code": 4,
                 "decimal": 18,
+                "type": "NEP141",
                 "symbol": "MYRIA",
                 "name": "Myria",
                 "id":"myriad-social",
@@ -77,10 +82,50 @@
                 "code": 5,
                 "decimal": 18,
                 "symbol": "DBIO",
+                "type": "NEP141",
                 "name": "Debio",
                 "id":"debio-network",
                 "contractId": "dbio.near",
                 "logo": "http://debio.dev/debiologo.png"
+            },
+            {
+                "code": 6,
+                "decimal": 18,
+                "symbol": "PEM",
+                "name": "Pembrock",
+                "id":"pembrock",
+                "contractId": "token.pembrock.near",
+                "logo": "https://www.fusotao.org/share/pem.svg"
+            },
+            {
+                "code": 7,
+                "decimal": 18,
+                "type": "ERC20",
+                "symbol": "WETH",
+                "name": "Wrapped Ether",
+                "id":"weth",
+                "contractId": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "logo": "https://www.fusotao.org/share/weth.svg"
+            },
+            {
+                "code": 8,
+                "decimal": 6,
+                "type": "ERC20",
+                "symbol": "USDT",
+                "name": "Tether USD",
+                "id":"tether",
+                "contractId": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "logo": "https://www.fusotao.org/share/usdt.svg"
+            },
+            {
+                "code": 11,
+                "decimal": 18,
+                "type": "BEP20",
+                "symbol": "USDT",
+                "name": "USDT_b",
+                "id":"tether",
+                "contractId": "0x55d398326f99059ff775485246999027b3197955",
+                "logo": "https://www.fusotao.org/share/usdt_b.png"
             }
         ]
     },
