@@ -6,6 +6,7 @@
         "symbol": "TAO",
         "website": "",
         "icon": "https://www.fusotao.org/share/tao.svg",
+        "chainBridgeFee": true,
         "tokenModule": "token",
         "tokenMethod": "balances",
         "tokenViewModules": {
@@ -31,6 +32,7 @@
             {
                 "code": 0,
                 "decimal": 18,
+                "type":"SUB",
                 "symbol": "TAO",
                 "name": "FUSOTAO",
                 "id":"fusotao",
@@ -39,9 +41,10 @@
             },
             {
                 "code": 1,
-                "decimal": 18,
+                "decimal": 6,
                 "symbol": "USDT",
-                "name": "USDT for Fusotao Testnet",
+                "type":"NEP141",
+                "name": "Tether",
                 "id":"tether",
                 "contractId": "usdt.fusotaoprotocol.testnet",
                 "logo": "https://www.fusotao.org/share/usdt.svg"
@@ -50,6 +53,7 @@
                 "code": 2,
                 "decimal": 18,
                 "symbol": "WETH",
+                "type":"NEP141",
                 "name": "Fusotao Fake WETH",
                 "id":"weth",
                 "contractId": "weth.fusotaoprotocol.testnet",
@@ -57,8 +61,9 @@
             },
             {
                 "code": 3,
-                "decimal": 18,
+                "decimal": 6,
                 "symbol": "fUSDT",
+                "type":"NEP141",
                 "name": "Fake USDT for Fusotao Testnet",
                 "id":"tether",
                 "contractId": "fake-usdt.fusotaoprotocol.testnet",
@@ -66,16 +71,28 @@
             },
             {
                 "code": 4,
-                "decimal": 18,
+                "decimal": 24,
                 "symbol": "wNEAR",
+                "type":"NEP141",
                 "name": "Wrapped NEAR fungible token",
                 "id":"wrapped-near",
                 "contractId": "wrap.testnet",
                 "logo": "https://www.fusotao.org/share/wnear.svg"
             },
             {
+                "code": 6,
+                "decimal": 18,
+                "symbol": "DBIO",
+                "type":"NEP141",
+                "name": "DeBio",
+                "id":"debio-network",
+                "contractId": "dbio.testnet",
+                "logo": "http://debio.dev/debiologo.png"
+            },
+            {
                 "code": 7,
                 "decimal": 18,
+                "type":"NEP141",
                 "symbol": "MYRIA",
                 "name": "Myria",
                 "id":"myriad-social",
@@ -83,22 +100,45 @@
                 "logo": "https://2dverse.org/myriad/Logo_Solid.svg"
             },
             {
-                "code": 6,
+                "code": 10,
                 "decimal": 18,
-                "symbol": "DBIO",
-                "name": "DeBio",
-                "id":"debio-network",
-                "contractId": "dbio.testnet",
-                "logo": "http://debio.dev/debiologo.png"
+                "type":"ERC20",
+                "symbol": "wETH",
+                "name": "Wrapped Ether",
+                "id":"weth",
+                "contractId": "0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6",
+                "logo": "https://www.fusotao.org/share/weth.svg"
             },
+          
             {
                 "code": 11,
                 "decimal": 18,
+                "type":"NEP141",
                 "symbol": "PEM",
                 "name": "Pembrock",
-                "id": "pembrock",
+                "id":"pembrock",
                 "contractId": "token.pembrock.testnet",
                 "logo": "https://www.fusotao.org/share/pem.svg"
+            },
+            {
+                "code": 12,
+                "decimal": 6,
+                "type":"ERC20",
+                "symbol": "USDC",
+                "name": "USD Coin",
+                "id":"tether",
+                "contractId": "0x6d816a5c38acefabede80a56b1f8bc27fa6ec242",
+                "logo": "https://www.fusotao.org/share/usdc.svg"
+            },
+            {
+                "code": 13,
+                "decimal": 18,
+                "type":"BEP20",
+                "symbol": "BUSD",
+                "name": "Binance USD",
+                "id":"binance-usd",
+                "contractId": "0xed24fc36d5ee211ea25a80239fb8c4cfd80f12ee",
+                "logo": "https://assets.coingecko.com/coins/images/9576/small/BUSD.png?1568947766"
             }
         ]
     },
@@ -107,6 +147,7 @@
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
         "symbol": "SOTO",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -138,6 +179,7 @@
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
         "symbol": "BARE",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -168,6 +210,7 @@
         "nodeId": "wss://gateway.testnet.octopus.network/discovol/o4urcey87y4n1qimhfrad92gzs315z9h",
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -199,6 +242,7 @@
         "nodeId": "wss://gateway.testnet.octopus.network/myriad/8f543a1c219f14d83c0faedefdd5be6e",
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
+        "chainBridgeFee": true,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -230,6 +274,7 @@
         "nodeId": "wss://gateway.testnet.octopus.network/debionetwork/554976cbb180f676f188abe14d63ca24",
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -271,6 +316,7 @@
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
         "symbol": "ATO",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
@@ -302,6 +348,7 @@
         "tokenModule": "octopusAssets",
         "tokenMethod": "account",
         "symbol": "UNET",
+        "chainBridgeFee": false,
         "tokenViewModules": {
             "balance": {
                 "module": "octopusAssets",
